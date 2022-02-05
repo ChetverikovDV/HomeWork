@@ -9,10 +9,9 @@ public class Main {
         System.out.print("Введите кол-во элементов массива: ");
         Integer value = scanner.nextInt();
         ArrayRandom random = new ArrayRandom();
-        System.out.println(Arrays.toString(random.generate(value)));
 
+        ArrayListCreator creator = new ArrayListCreator();
+        creator.addArray(random.generate(value));
 
-     //   ArrayListCreator creator = new ArrayListCreator();
-     //   creator.addArray();
     }
 }
