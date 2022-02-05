@@ -2,7 +2,7 @@ package lesson1;
 
 import java.util.*;
 
-public class ArrayListCreator {
+public class ArrayListTest {
     public List<Integer> addArray(Integer array[]){
 
                   long start = System.currentTimeMillis();              //  СТАРТ

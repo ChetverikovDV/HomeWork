@@ -1,6 +1,5 @@
 package lesson1;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -10,8 +9,8 @@ public class Main {
         Integer value = scanner.nextInt();
         ArrayRandom random = new ArrayRandom();
 
-        ArrayListCreator creator = new ArrayListCreator();
-        creator.addArray(random.generate(value));
+        ArrayListTest arrayListTest1 = new ArrayListTest();
+        arrayListTest1.addArray(random.generate(value));
 
     }
 }
