@@ -14,8 +14,8 @@ public class ListTest {
                   long finish = System.currentTimeMillis();             //  ФИНИШ
                   long difference = finish - start;
 
-        System.out.print("ArrayList. Прошло времени: " +difference);    //  Прошло времени
-        System.out.println(" мс");
+        System.out.print("ArrayList.     " +difference);    //  Прошло времени
+        System.out.print(" мс     ");
         // System.out.println(list);                                   //    проверка
 
         return list;
@@ -32,7 +32,7 @@ public class ListTest {
               long finish = System.currentTimeMillis();                 //  ФИНИШ
               long difference = finish - start;
 
-        System.out.print("LinkedList. Прошло времени: " +difference);   //  Прошло времени
+        System.out.print("LinkedList.     " +difference);   //  Прошло времени
         System.out.println(" мс");
         // System.out.println(list);                                   //    проверка
 

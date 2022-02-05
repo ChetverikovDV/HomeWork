@@ -13,10 +13,11 @@ public class Main {
         Integer tempArray[] = random.generate(value);
         //System.out.println(Arrays.toString(tampArray));
 
-        ListTest arrayListTest = new ListTest();
-        arrayListTest.addArrayToArrayList(tempArray);
-        ListTest linkedListTest = new ListTest();
-        linkedListTest.addArrayToLinkedList(tempArray);
-
+            for (int i = 0; i < 10; i++) {
+                ListTest arrayListTest = new ListTest();
+                arrayListTest.addArrayToArrayList(tempArray);
+                ListTest linkedListTest = new ListTest();
+                linkedListTest.addArrayToLinkedList(tempArray);
+            }
     }
 }
