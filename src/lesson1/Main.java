@@ -10,13 +10,13 @@ public class Main {
         Integer value = scanner.nextInt();
         ArrayRandom random = new ArrayRandom();
 
-        Integer tampArray[] = random.generate(value);
+        Integer tempArray[] = random.generate(value);
         //System.out.println(Arrays.toString(tampArray));
 
         ListTest arrayListTest = new ListTest();
-        arrayListTest.addArrayToArrayList(tampArray);
+        arrayListTest.addArrayToArrayList(tempArray);
         ListTest linkedListTest = new ListTest();
-        linkedListTest.addArrayToLinkedList(tampArray);
+        linkedListTest.addArrayToLinkedList(tempArray);
 
     }
 }
