@@ -1,5 +1,6 @@
 package lesson1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -9,8 +10,13 @@ public class Main {
         Integer value = scanner.nextInt();
         ArrayRandom random = new ArrayRandom();
 
-        ArrayListTest arrayListTest1 = new ArrayListTest();
-        arrayListTest1.addArray(random.generate(value));
+        Integer tampArray[] = random.generate(value);
+        //System.out.println(Arrays.toString(tampArray));
+
+        ListTest arrayListTest = new ListTest();
+        arrayListTest.addArrayToArrayList(tampArray);
+        ListTest linkedListTest = new ListTest();
+        linkedListTest.addArrayToLinkedList(tampArray);
 
     }
 }
