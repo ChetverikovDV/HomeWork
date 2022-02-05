@@ -3,7 +3,7 @@ package lesson1;
 import java.util.*;
 
 public class ArrayListCreator {
-    public List addArray(){
+    public List<Integer> addArray(){
         ArrayCreator creator = new ArrayCreator();
         Integer[] mass = creator.createRandomValuesArray();
         System.out.println(Arrays.toString(mass));                      //проверка
